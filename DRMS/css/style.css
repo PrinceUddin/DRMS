@@ -1,0 +1,25 @@
+body {
+        margin: 0;
+        padding:0;
+        height: 100vh;
+        background: linear-gradient(#87CEEB, white, #87CEEB);
+        /* White to Water Blue gradient */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .options {
+        text-align: center;
+    }
+
+    .options a {
+        display: block;
+        margin: 10px;
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+

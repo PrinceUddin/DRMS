@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+</head>
+
+<body>
+    <h1>Welcome to the Index Page</h1>
+
+    <script>
+        // Function to get query parameters from the URL
+        function getQueryParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Extract the barcode from the URL
+        const barcode = getQueryParameter("barcode");
+
+        if (barcode) {
+            alert("Logged in with barcode: " + barcode);
+            // You can perform further actions like logging the user in here
+        }
+    </script>
+</body>
+
+</html>
